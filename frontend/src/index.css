@@ -1,0 +1,19 @@
+/* styles.css */
+
+/* Custom styles */
+body {
+  background-color: #f0f8ff; /* light blue for a calming effect */
+  color: #333;
+  margin-top: 80px; /* Offset for the fixed navbar */
+}
+
+.footer {
+  background-color: #9a60e1; /* lavender */
+  color: white;
+  padding: 15px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif; /* Modern and clean font */
+}

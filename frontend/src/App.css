@@ -1,0 +1,18 @@
+.mission {
+  text-align: center; /* Center-aligns the heading and content */
+  padding: 20px; /* Adds padding around the mission section */
+  background-color: #f5f9fc; /* Light background color for a clean look */
+  border-radius: 8px; /* Rounded corners for a softer appearance */
+  margin: 20px auto; /* Centers the section with margin on top and bottom */
+  max-width: 1200px; /* Ensures the section doesn’t exceed a maximum width */
+}
+
+.mission h1 {
+  color: purple; /* Blue color for consistency with the gallery theme */
+  font-size: 2rem; /* Larger font size for emphasis */
+  font-weight: bold; /* Bold title for better visibility */
+  margin: 0; /* Removes default margin for better alignment */
+  padding: 15px 0; /* Adds space above and below the title */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Single, subtle shadow */
+  font-family: 'Roboto Slab', serif; /* Elegant font for headings */
+}

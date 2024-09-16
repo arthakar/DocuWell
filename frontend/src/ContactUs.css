@@ -1,0 +1,75 @@
+/* Ensure consistent font-family and color scheme with home page */
+.contact-container {
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    height: 100vh;
+    justify-content: center;
+    
+ }
+ 
+ .logo-container {
+    width: 30%;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .logo-placeholder {
+    width: 150px;
+    height: 150px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .content-container {
+    width: 75%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+ }
+ 
+ .image-container {
+    display: flex;
+
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+ }
+ 
+ .image-placeholder {
+    width: 150px;
+    height: 150px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .contact-image {
+    width: 75%;
+    height: auto;
+    object-fit: cover; /* Makes sure the image fits the container */
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .image-item {
+   flex-basis: 20%;
+   flex-grow: 1; 
+   text-align: center;
+ }
+ .image-name {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+   font-size: 1rem;
+   color: #333;
+   margin-top: 10px;
+ }

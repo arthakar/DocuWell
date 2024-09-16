@@ -1,0 +1,48 @@
+.gallery {
+  display: flex;
+  align-items: flex-start; /* Aligns items at the top for a clean look */
+  justify-content: center; /* Horizontally centers the content */
+  margin: 20px 0;
+  font-family: Arial, sans-serif; /* Clean, readable font */
+}
+
+.gallery img {
+  max-width: 300px; /* Adjust as necessary */
+  height: auto;
+  margin-right: 20px; /* Space between the image and text */
+  border-radius: 8px; /* Rounded corners for a softer look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+.gallery p {
+  text-align: center; /* Center-aligns the entire content of the paragraph */
+  color: #333; /* Dark gray text for readability */
+  line-height: 1.6; /* Increases line height for better readability */
+}
+
+.gallery h3 {
+  margin: 0; /* Remove default margins for better alignment */
+  padding-bottom: 15px; /* Adds some space between the title and the list */
+  font-size: 1.5rem; /* Larger font size for emphasis */
+  color: #007BFF; /* Blue color for a medical-themed look */
+  font-weight: bold; /* Bold title for better visibility */
+}
+
+.gallery ul {
+  list-style-type: disc; /* Disc bullets for a cleaner look */
+  list-style-position: inside; /* Ensures bullets are inside the container */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.gallery li {
+  margin: 10px 0; /* Adds vertical spacing between items */
+  text-align: left; /* Left-align text for better readability */
+  font-size: 1.25rem; /* Standard font size for clarity */
+  color: #555; /* Medium gray text for less strain */
+}
+
+.gallery li::before {
+  color: #007BFF; /* Blue bullet for consistency with the theme */
+  margin-right: 8px; /* Space between bullet and text */
+}

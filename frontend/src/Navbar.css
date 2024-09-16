@@ -1,0 +1,97 @@
+/* Container for the navbar to ensure full width */
+.navbar {
+  background-color: #9a60e1; /* Lavender background */
+  padding: 10px 20px; /* Adjusted padding for better spacing */
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border-bottom: 2px solid #8a4cf5; /* Slightly darker border for definition */
+  font-family: 'Montserrat', sans-serif; /* Modern and clean font */
+}
+
+/* Ensure navbar content is centered and has a max-width */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Center items vertically */
+  width: 100%;
+  max-width: 1200px; /* Centers content within a max-width */
+  margin: 0 auto; /* Centers the navbar-container */
+}
+
+/* Styling for the brand/logo section */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem; /* Slightly smaller than before for better balance */
+  color: #FFD700; /* Gold for better contrast and visibility */
+}
+
+.logo {
+  width: 50px; /* Adjusted size for better proportions */
+  height: auto;
+  margin-right: 10px;
+}
+
+/* Styling for the navbar toggler (for mobile) */
+.navbar-toggler {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+/* Styling for the links container */
+.navbar-links {
+  display: flex;
+  gap: 20px;
+  align-items: center; /* Vertically centers the links */
+  height: 100%; /* Ensure the navbar links container takes full height */
+}
+
+/* Styling for individual links */
+.nav-link {
+  color: white; /* Ensures readability */
+  text-decoration: none;
+  font-size: 1.1rem; /* Slightly smaller font size for better fit */
+  font-weight: 500; /* Slightly heavier font for better readability */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+  text-align: center;
+  display: flex; /* Use flexbox to help with vertical alignment */
+  align-items: center; /* Center text vertically */
+}
+
+/* Hover effect for links */
+.nav-link:hover {
+  color: #f0f0f0; /* Lighter color on hover */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .navbar-links {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #9a60e1;
+    padding: 10px;
+    border-radius: 8px; /* Rounded corners for mobile menu */
+  }
+
+  .navbar-links.open {
+    display: flex;
+  }
+
+  .navbar-toggler {
+    display: block;
+  }
+}
