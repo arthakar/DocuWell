@@ -1,19 +1,41 @@
 const express = require('express');
 const cors = require('cors');
-const bodyParser = require('body-parser');
-
+const mongoose = require('mongoose');
+const taskRoutes = require('./routes/tasks');
+const dotenv = require('dotenv')
+const { auth } = require('express-oauth2-jwt-bearer');
 const app = express();
-app.use(cors());
-app.use(bodyParser.json());
+const PORT = process.env.PORT || 5001;
 
-const PORT = process.env.PORT || 5000;
+dotenv.config()
 
-app.get('/', (req, res) => {
-   res.send('Welcome to the DocuWell Backend!');
+app.use(cors({
+  origin: 'http://localhost:3000', // Replace with your front-end URL
+  methods: ['GET', 'POST', 'PATCH', 'DELETE'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+}));
+
+app.use(express.json());
+
+const jwtCheck = auth({
+  audience: 'https://apidocuwell/',
+  issuerBaseURL: 'https://dev-d1f6u0mv57siwfca.us.auth0.com/',
+  tokenSigningAlg: 'RS256'
 });
 
-// Add your endpoints here
+app.use('/apidocuwell', jwtCheck);
+app.use('/api', taskRoutes);
 
-app.listen(PORT, () => {
-   console.log(`Server is running on port ${PORT}`);
-});
+mongoose.connect(process.env.MONGO_URL, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+})
+  .then(() => {
+    console.log('Connected to MongoDB');
+    app.listen(PORT, () => {
+      console.log(`Server running on port ${PORT}`);
+    });
+  })
+  .catch((error) => {
+    console.log("MongoDB connection failed:", error.message);
+  });
