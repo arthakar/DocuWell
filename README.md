@@ -7,4 +7,4 @@ doctor or a chatbot. Doctors can use this app to receive coherent patient record
 Created a chatbot using OpenAI’s API, fine-tuning it to ask clarifying questions and improving patient interaction
 quality by 20%, as measured by chatbot responses in trials.
 
-For more information, check out [DocuWell's DevPost Page](https://devpost.com/software/docuwell)
+For more information, check out [DocuWell's DevPost Page](https://devpost.com/software/docuwell) and [our slideshow](https://docs.google.com/presentation/d/1Wp_Mj9VXX0RgKVOpWVAsMcAywKKMf7ONCX0HNthmEYg/edit?usp=sharing)!
