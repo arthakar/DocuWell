@@ -1,28 +1,26 @@
 
 # DocuWell
 
-# 📋 DocuWell  
-
-A full-stack web app designed to improve communication between patients and doctors while supporting diversity, equity, and inclusion in healthcare.  
+A web app designed to improve communication between patients and doctors while supporting diversity, equity, and inclusion in healthcare.  
 
 ---
 
-## 🌟 Inspiration  
+## Inspiration  
 
-We were inspired by the potential of **AI in healthcare**, particularly its ability to extend support in **underserved and rural communities**. In addition, **mental health** is an important topic among college students, and we saw an opportunity to build technology that addresses both **accessibility** and **well-being**.  
-
----
-
-## 💡 What It Does  
-
-- Enables patients to **track medicine usage**  
-- Records **symptoms and side effects**  
-- Facilitates communication with a **doctor or chatbot**  
-- Provides doctors with **coherent patient records** to ask more insightful questions  
+We were inspired by the potential of **AI in healthcare**, particularly its ability to extend support in underserved and rural communities. In addition, mental health is an important topic among college students, and we saw an opportunity to build technology that addresses both **accessibility** and **well-being**.  
 
 ---
 
-## 🛠️ How We Built It  
+## What It Does  
+
+- Enables patients to track medicine usage and engage with a chatbot for diagnozing potential causes to symptoms  
+- Records symptoms and side effects 
+- Facilitates communication with a doctor  
+- Provides doctors with coherent patient records to ask more insightful questions  
+
+---
+
+## How We Built It  
 
 - **Frontend:** React  
 - **Backend:** Node.js  
@@ -33,7 +31,7 @@ We were inspired by the potential of **AI in healthcare**, particularly its abil
 
 ---
 
-## ⚡ Challenges We Faced  
+## Challenges We Faced  
 
 - Debugging across multiple unfamiliar tools  
 - Implementing complex features under time constraints  
@@ -41,7 +39,7 @@ We were inspired by the potential of **AI in healthcare**, particularly its abil
 
 ---
 
-## 🏆 Accomplishments We’re Proud Of  
+## Accomplishments We’re Proud Of  
 
 - Collaborated effectively as a team  
 - Learned and applied new skills in a short timeframe  
@@ -49,7 +47,7 @@ We were inspired by the potential of **AI in healthcare**, particularly its abil
 
 ---
 
-## 📚 What We Learned  
+## What We Learned  
 
 - Gained hands-on experience in **full-stack web development**  
 - Avoided common beginner pitfalls  
@@ -57,7 +55,7 @@ We were inspired by the potential of **AI in healthcare**, particularly its abil
 
 ---
 
-## 🔮 What’s Next for DocuWell  
+## What’s Next for DocuWell  
 
 - Enhance chatbot capabilities for more natural conversations  
 - Improve patient-doctor connectivity and data visualization  
@@ -72,8 +70,10 @@ We were inspired by the potential of **AI in healthcare**, particularly its abil
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="50" height="50" alt="Node.js"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50" height="50" alt="CSS3"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="50" height="50" alt="MongoDB"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/auth0/auth0-original.svg" width="50" height="50" alt="Auth0"/>
-  <img src="https://img.icons8.com/color/48/openai.png" width="50" height="50" alt="OpenAI API"/>
+  <!-- Auth0 -->
+  <img src="https://www.vectorlogo.zone/logos/auth0/auth0-icon.svg" width="50" height="50" alt="Auth0"/>
+  <!-- OpenAI -->
+  <img src="https://www.vectorlogo.zone/logos/openai/openai-icon.svg" width="50" height="50" alt="OpenAI"/>
 </p>  
 
 
