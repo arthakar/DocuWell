@@ -3,6 +3,8 @@
 
 A web app designed to improve communication between patients and doctors while supporting diversity, equity, and inclusion in healthcare.  
 
+For more information, check out [DocuWell's DevPost Page](https://devpost.com/software/docuwell) and [our slideshow](https://docs.google.com/presentation/d/1Wp_Mj9VXX0RgKVOpWVAsMcAywKKMf7ONCX0HNthmEYg/edit?usp=sharing)!
+
 ---
 
 ## Inspiration  
@@ -73,8 +75,6 @@ We were inspired by the potential of **AI in healthcare**, particularly its abil
   <!-- Auth0 -->
   <img src="https://www.vectorlogo.zone/logos/auth0/auth0-icon.svg" width="50" height="50" alt="Auth0"/>
   <!-- OpenAI -->
-  <img src="https://www.vectorlogo.zone/logos/openai/openai-icon.svg" width="50" height="50" alt="OpenAI"/>
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/openai.svg" width="50" height="50" alt="OpenAI (mono)"/>
 </p>  
 
-
-For more information, check out [DocuWell's DevPost Page](https://devpost.com/software/docuwell) and [our slideshow](https://docs.google.com/presentation/d/1Wp_Mj9VXX0RgKVOpWVAsMcAywKKMf7ONCX0HNthmEYg/edit?usp=sharing)!
